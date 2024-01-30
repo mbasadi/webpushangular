@@ -9,7 +9,6 @@
         "files": [
           "/favicon.ico",
           "/index.html",
-          "/assets/notificationapi-service-worker-0697cc83d566c337f10fdfafdd4c765b.js",
           "/manifest.webmanifest",
           "/*.css",
           "/*.js"

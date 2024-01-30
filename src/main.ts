@@ -1,6 +1,7 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { appConfig } from './app/app.config';
 import { AppComponent } from './app/app.component';
+import { ServiceWorkerComponent } from "./app/service-worker/service-worker.component";
 
 // // Registering the service worker
 // if ('serviceWorker' in navigator) {
@@ -20,4 +21,6 @@ import { AppComponent } from './app/app.component';
 
 // Bootstrap the application
 bootstrapApplication(AppComponent, appConfig)
+  .catch(err => console.error(err));
+  bootstrapApplication(ServiceWorkerComponent)
   .catch(err => console.error(err));
