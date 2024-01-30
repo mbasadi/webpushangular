@@ -28,8 +28,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/service-workers/notificationapi-service-worker-0697cc83d566c337f10fdfafdd4c765b.js",
-              "src/manifest.webmanifest"
+              "src/manifest.webmanifest",
+              "src/assets/notificationapi-service-worker-0697cc83d566c337f10fdfafdd4c765b.js"
             ],
             "styles": [
               "src/styles.scss"
